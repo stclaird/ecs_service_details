@@ -1,0 +1,9 @@
+#This is the AWS CLI equivilent command(s)
+
+aws ecs list-tasks --cluster <cluster_name> --service <service_name>
+
+aws ecs describe-tasks --cluster <cluster_name> <task arn>
+
+aws ecs describe-container-instances --cluster <cluster_name> --container-instances <container instance arn>
+
+
